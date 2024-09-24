@@ -1,0 +1,3 @@
+@echo off
+@ECHO Stopping Docker Compose...
+CALL docker-compose -f ../docker-compose.yml down

@@ -1,0 +1,3 @@
+@echo off
+@ECHO Running Docker Compose...
+CALL docker-compose -f ../docker-compose.yml up -d

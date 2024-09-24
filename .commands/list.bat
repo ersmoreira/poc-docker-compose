@@ -1,0 +1,3 @@
+@echo off
+@ECHO List all running containers...
+CALL docker-compose ps
